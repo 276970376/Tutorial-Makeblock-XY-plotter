@@ -5,8 +5,11 @@ This is a tutorial to draw the current weather directly by your Makeblock XY plo
 ----------------------------------------------  TUTO ------------------------------------------------
 
 What do you need:
+
 -Makeblock XY Plotter
+
 -Python 2.7 (not 3.4) 
+
 -Arduino Software
 
 1)	Preparing the plotter board 
