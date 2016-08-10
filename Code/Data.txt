@@ -1,0 +1,42 @@
+{
+    "clouds": {
+        "all": 0
+    }, 
+    "name": "Floriana", 
+    "coord": {
+        "lat": 35.9, 
+        "lon": 14.51
+    }, 
+    "sys": {
+        "country": "MT", 
+        "sunset": 1470851802, 
+        "message": 0.0033, 
+        "type": 3, 
+        "id": 255445, 
+        "sunrise": 1470802628
+    }, 
+    "weather": [
+        {
+            "main": "Clear", 
+            "id": 800, 
+            "icon": "01d", 
+            "description": "clear sky"
+        }
+    ], 
+    "cod": 200, 
+    "base": "cmc stations", 
+    "dt": 1470822559, 
+    "main": {
+        "pressure": 1015, 
+        "temp_min": 303.71, 
+        "temp_max": 303.71, 
+        "temp": 303.71, 
+        "humidity": 33
+    }, 
+    "id": 2562955, 
+    "wind": {
+        "gust": 6.17, 
+        "speed": 2.06, 
+        "deg": 270
+    }
+}
