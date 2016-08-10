@@ -3,10 +3,11 @@
 This is a tutorial to draw the current weather directly by your Makeblock XY plotter. 
 
 ----------------------------------------------  TUTO ------------------------------------------------
+
 What do you need:
 -Makeblock XY Plotter
--Python 2.7 (not 3.4) -> Software
--Arduino Software -> Software
+-Python 2.7 (not 3.4) 
+-Arduino Software
 
 1)	Preparing the plotter board 
 Firstly you have to upload the correct Arduino code in the XY plotter. This code will manage motors and sensors. Open the Arduino code, located in the Arduino folder, in the software and upload it directly in the plotter via USB. In the GCodeParser.ino, you can change the value of “Fast_XY_Feedrate” to increase or reduce the stepping motors speed, but you have to take care, increasing the speed will reduce the accuracy of the drawing. You can also change the final size of the drawing by increasing/decreasing the “X_STEPS_PER_MM” and “Y_STEPS_PER_MM”, don’t forget to change the steps per inch as well. Currently, values give a final result around 18x18cm.
